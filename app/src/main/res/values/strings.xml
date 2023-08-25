@@ -1,0 +1,37 @@
+<resources>
+    <!-- Strings -->
+    <string name="app_name">week7Assignment</string>
+    <string name="select_category">Select a category</string>
+    <string name="view_more">View more</string>
+    <string name="weightlifti">Weightlifting Exercises</string>
+    <string name="pilates_and">Pilates and Yoga Exercises</string>
+    <string name="weight_loss">Weight Loss Exercises</string>
+    <string name="achievement">Achievement</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_exercises">Exercises</string>
+    <string name="lbl_achievement">Achievement</string>
+    <string name="lbl_weight_loss">Weight Loss</string>
+    <string name="lbl_welcome_back">Welcome back,</string>
+    <string name="lbl_weightlifting">Weightlifting</string>
+    <string name="lbl_view_more">View more</string>
+    <string name="lbl_user">user</string>
+    <string name="msg_welcome_back_n">Welcome back, user</string>
+
+    <!-- String Arrays -->
+    <string-array name="categories">
+        <item>"     Choose an item"</item>
+        <item>Chest</item>
+        <item>Legs</item>
+        <item>Arms</item>
+        <item>Back</item>
+        <item>Shoulders</item>
+        <item>Cardio</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

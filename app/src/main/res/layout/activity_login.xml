@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="150dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <!-- Hey there TextView -->
+
+        <TextView
+            android:id="@+id/textHeyThere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Hey there,"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <!-- Welcome back TextView -->
+        <TextView
+            android:id="@+id/textWelcomeBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textHeyThere"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Welcome back"
+            android:textStyle="bold"
+            android:textSize="26sp" />
+
+        <!-- Username EditText -->
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textWelcomeBack"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Email address"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#232323" />
+
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editUsername"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/edittext_background"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#232323" />
+
+        <!-- Forgot Password TextView -->
+        <TextView
+            android:id="@+id/textForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Forgot Password?"
+            android:textColor="#766262"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onForgotPasswordClick" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textForgotPassword"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="#766262"
+            android:color="@color/brown"
+            android:padding="13dp"
+            android:radius="40dp"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="#766262"
+            android:textColorLink="#766262"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        <!-- Spacer between Login Button and Social Media Icons -->
+        <View
+            android:id="@+id/spacer"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/btnLogin" />
+
+        <!-- Social Media Icons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spacer"
+            android:gravity="center">
+
+            <!-- Your ImageView entries here -->
+            <!-- Replace with actual image resources for social media icons -->
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/google" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/icons8_facebook" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/outlook" />
+        </LinearLayout>
+
+        <!-- Forgot Password Button -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="-4dp">
+
+            <!-- Don't have an account? Signup TextView -->
+            <TextView
+                android:id="@+id/textLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="490dp"
+                android:text="Don't have an account?"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="490dp"
+                android:clickable="true"
+                android:minHeight="48dp"
+                android:text="Signup"
+                android:textColor="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textColorLink="@color/colorAccent"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

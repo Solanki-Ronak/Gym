@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Update TextView properties -->
+
+    <!-- Update EditText properties -->
+    <!-- Update Spinner properties -->
+    <!-- Add this Spinner element for the dropdown -->
+    <Spinner
+        android:id="@+id/spinnerFirstname"
+        android:layout_width="317dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorAccent"
+        android:entries="@array/sample_firstnames"
+        android:hint="Select Firstname"
+        android:textSize="24sp" />
+
+
+    <Spinner
+        android:id="@+id/spinnerLastName"
+        android:layout_width="317dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorAccent"
+        android:entries="@array/sample_lastnames_choose"
+        android:hint="Select Lastname"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/group"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Training group"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/exname"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Exercise name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/idnumber"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:hint="IDNumber"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/major"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:hint="No. of Sets"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:hint="No. of reps"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Weight(kg)"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:hint="DD/MM/YYYY"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="@color/gray_400"
+        android:textSize="24sp" />
+
+
+    <!-- Update Button properties -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:background="#FF7711"
+            android:text="ADD"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="#FF7711"
+            android:text="UPDATE"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <!-- Buttons in Vertical LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:background="#FF7711"
+            android:text="DELETE"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="#FF7711"
+            android:onClick="onClearButtonClick"
+            android:text="CLEAR"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+    </ScrollView>

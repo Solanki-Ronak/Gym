@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sample_firstnames">
+
+        <item>Chest</item>
+        <item>Legs</item>
+        <item>Arms</item>
+        <item>Back</item>
+        <item>Shoulders</item>
+        <item>Cardio</item>
+    </string-array>
+
+    <string-array name="sample_lastnames_choose">
+        <item>Choose an Exercise</item>
+    </string-array>
+
+    <string-array name="sample_lastnames_legs">
+        <item>Leg Extensions</item>
+        <item>Lunges</item>
+        <item>Leg Press</item>
+        <item>Squats</item>
+        <item>Calf Raises</item>
+        <item>Leg Curls</item>
+    </string-array>
+
+    <string-array name="sample_lastnames_chest">
+        <item>Pushups</item>
+        <item>Bench Press</item>
+        <item>Dumbbell Flyes</item>
+        <item>Pull Ups</item>
+        <item>Cable Chest Press</item>
+        <item>Close Dumbbell Press</item>
+    </string-array>
+
+    <string-array name="sample_lastnames_arms">
+        <item>Bicep Curls</item>
+        <item>Tricep Extensions</item>
+        <item>Dips</item>
+        <item>Hammer Curls</item>
+        <item>Overhead Extension</item>
+        <item>Lateral Raises</item>
+    </string-array>
+
+    <string-array name="sample_lastnames_back">
+        <item>Rows</item>
+        <item>Deadlift</item>
+        <item>Back Extensions</item>
+        <item>Y Raises</item>
+        <item>Pulldown Exercises</item>
+        <item>Facepull</item>
+    </string-array>
+
+    <string-array name="sample_lastnames_shoulder">
+        <item>Side Lateral Raises</item>
+        <item>Reverse Flyes</item>
+        <item>Overhead Press</item>
+        <item>Shoulder Shrug</item>
+        <item>Rear Delt Flyes</item>
+        <item>Z-Press</item>
+    </string-array>
+    <string-array name="sample_lastnames_cardio">
+        <item>Jumping Jacks</item>
+        <item>Jogging</item>
+        <item>Skipping</item>
+        <item>Planks</item>
+        <item>Cycling</item>
+        <item>Running</item>
+    </string-array>
+
+    <!-- Define other string arrays for each option in the first dropdown -->
+</resources>
